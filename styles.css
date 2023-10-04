@@ -1,0 +1,45 @@
+/* * selects all elements */
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+/* : selector */
+body {
+	text-align: center;
+	font-family: 'Times New Roman';
+}
+
+/* applies p thats child of div */
+div > p {
+	font-size: 6em;
+}
+
+/* applies for all div and p */
+div, p {
+	color: white;
+}
+
+/* Viewport units */
+.fullscreen {
+	width: 100vw%;
+	height: 100vh;
+	color: white;
+	padding: 51vmin;
+}
+
+.Fall {
+	background: url(https://ik.imagekit.io/panmac/tr:f-auto,w-740,pr-true//bcd02f72-b50c-0179-8b4b-5e44f5340bd4/7a0b8947-d971-444f-9287-e11fd0d2c421/autumn-poems-header-min.jpg) center/cover;
+}
+
+.Winter {
+	background: url(https://t3.ftcdn.net/jpg/02/98/03/22/360_F_298032209_YD4pFLDyzMyqBzso5xF5USR05hxqGuXf.jpg) center/cover;
+}
+
+.Spring {
+	background: url(https://media.cnn.com/api/v1/images/stellar/prod/210316134609-01-wisdom-project-spring.jpg?q=w_4000,h_2250,x_0,y_0,c_fill) center/cover;
+}
+
+.Summer {
+	background: url(https://media.cnn.com/api/v1/images/stellar/prod/210316134738-02-wisdom-project-summer.jpg?q=w_3568,h_2006,x_0,y_0,c_fill) center/cover;
+}
